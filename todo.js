@@ -7,7 +7,7 @@ function Add(){
     }
     else{
            let newEle = document.createElement('ul');
-           newEle.innerHTML = `${inputs.value} <i class="bi bi-archive-fill" id="del"></i>  <i class="bi bi-pencil-square" id="edit"></i>`;
+           newEle.innerHTML = `${inputs.value} <i class="bi bi-archive" id="del"></i>  <i class="bi bi-pencil-square" id="edit"></i>`;
            inputs.value ="";
            txt.appendChild(newEle);
             newEle.querySelector( '#del').addEventListener('click',Delete);
@@ -17,6 +17,7 @@ function Add(){
           newEle.querySelector('#edit').addEventListener('click',edt);
            function edt(){
              let edlist = prompt("edit the list");
+             alert('List Updated Successfully')
              newEle.innerHTML = `${edlist}`;
 
            }

@@ -1,12 +1,21 @@
 body{
-   background-color: rgb(49, 59, 59);
+   background-color: #7bed9f;
    font-family: 'Poppins', sans-serif;
+}
+h1{
+   font-family: Comfortaa, cursive;
+}
+.main{
+   margin-top: 80px;
+  
 }
 .container{
    width: 360px;
+   min-height: 400px;
    padding: 33px;
    text-align: center;
-   background-color: #fff;
+   background-color: #fff; 
+   border-radius: 20px;
    margin-left: 33%;
    margin-top: 5px;
 }
@@ -16,7 +25,7 @@ input{
    border: 2px solid rgb(6, 145, 145);
    outline: none;
    font-size: 19px;
-
+   margin-top: 30px;
 
 }
 button{
@@ -26,14 +35,14 @@ button{
    color: white;
    border: none;
    cursor: pointer;
-
+   margin-top: 30px;
    outline: none;
    border-radius: 2px;
    font-size: 19px;
 }
 .text ul{
    position: relative;
-   background-color: rgb(92, 54, 86);
+   background-color: rgb(107, 29, 95);
    color: white;
    font-size: 19px;
    border-radius: 10px;
@@ -49,4 +58,5 @@ button{
 #del{
     position:absolute;
     right: 5px;
+    
 }
